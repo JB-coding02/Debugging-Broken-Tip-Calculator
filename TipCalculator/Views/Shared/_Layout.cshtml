@@ -1,15 +1,16 @@
 ﻿<!DOCTYPE html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-    <header>
-        <h1>Tip Calculator</h1>
-    </header>
-    <main role="main">
-        @RenderBody()
-    </main>
-</body>
-</html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>@ViewData["Title"]</title>
+            <link rel="stylesheet" href="~/css/site.css" />
+        </head>
+        <body>
+            <header>
+                <h1>Tip Calculator</h1>
+            </header>
+            <main role="main">
+                @RenderBody()
+            </main>
+        </body>
+    </html>
