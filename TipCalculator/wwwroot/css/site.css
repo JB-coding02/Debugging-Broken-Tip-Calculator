@@ -1,19 +1,30 @@
 body {
     padding: 1em;
     font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: fit-content;
 }
+
 
 h1 {
     margin-top: 0;
     color: navy;
 }
 
+
 label {
     display: inline-block;
-    widht: 10em;
+    width: 10em;
     padding-right: 1em;
 }
 
+
 div {
     margin-bottom: .5em;
+    color: black;
+}
+
+
+html {
+    height: 100%;
 }
